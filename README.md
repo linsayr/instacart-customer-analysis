@@ -10,13 +10,22 @@ This project was developed as part of the Sprint 4 bootcamp at TripleTen. The go
 - Products commonly added first to the cart
 - Average number of items per order
 
-## Datasets
+## 📁 Project Structure
+instacart-customer-behavior/
+│
+├── data/ # Contains all CSV datasets
+├── notebooks/ # Jupyter notebooks with the analysis
+│ └── instacart_analysis.ipynb
+├── scripts/ # Optional: Python scripts for modular code
+├── README.md
+└── requirements.txt
 
-- `instacart_orders.csv`
-- `products.csv`
-- `order_products.csv`
-- `aisles.csv`
-- `departments.csv`
+## 📊 Project Goals
+
+- Clean and prepare Instacart order data
+- Analyze order patterns by day of the week and hour
+- Identify most commonly ordered and reordered products
+- Discover trends in how users fill their carts (first item, number of items, etc.)
 
 ## Tools & Libraries
 
